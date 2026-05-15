@@ -1,0 +1,33 @@
+# Dependencies
+/vendor/
+
+# Runtime configuration and generated data
+/storage/*
+!/storage/.gitkeep
+
+# Local environment files
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Database dumps and backup archives
+*.sql.gz
+*.sql.zip
+*.bak
+*.backup
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
