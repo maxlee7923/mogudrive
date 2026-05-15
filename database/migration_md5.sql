@@ -1,0 +1,5 @@
+ALTER TABLE upload_sessions
+  ADD COLUMN expected_md5 VARCHAR(32) NULL AFTER file_sha256;
+
+ALTER TABLE files
+  ADD COLUMN md5 VARCHAR(32) NULL AFTER sha256;
