@@ -1,0 +1,16 @@
+{
+  "name": "tima/megaish-share",
+  "description": "PHP + MySQL chunk upload/share/download system",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "aws/aws-sdk-php": "^3.269"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
